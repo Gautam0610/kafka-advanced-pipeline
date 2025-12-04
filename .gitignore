@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+build/
+dist/
+venv/
+.venv/
+ENV/
+env/
+*.log
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Kafka-specific (if any generated logs/data files)
+kf-logs/
+kf-data/
